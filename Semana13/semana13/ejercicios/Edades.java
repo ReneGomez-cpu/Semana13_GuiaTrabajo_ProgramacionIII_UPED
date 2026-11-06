@@ -1,0 +1,1 @@
+public class Edades { public static void main(String[] args) { String[] datos = { "18", "veinte", "25" }; for (String dato : datos) try { System.out.println(Integer.parseInt(dato)); } catch (NumberFormatException e) { System.out.println("Dato omitido: " + dato); } } }

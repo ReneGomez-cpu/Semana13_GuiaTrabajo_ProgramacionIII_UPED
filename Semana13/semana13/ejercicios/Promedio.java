@@ -1,0 +1,1 @@
+public class Promedio { public static double calcular(int[] notas) { if (notas == null || notas.length == 0) throw new IllegalArgumentException("Sin notas"); double suma = 0; for (int n : notas) suma += n; return suma / notas.length; } public static void main(String[] args) { System.out.println(calcular(new int[]{8, 9, 10})); } }
